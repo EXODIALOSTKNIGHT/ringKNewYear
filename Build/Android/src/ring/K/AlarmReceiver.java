@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.YourCompany.ringKNewYear;
+package ring.K;
 
 import com.google.android.vending.expansion.downloader.DownloaderClientMarshaller;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.YourCompany.ringKNewYear;
+package ring.K;
 
 import com.google.android.vending.expansion.downloader.impl.DownloaderService;
 
@@ -61,6 +61,6 @@ public class OBBDownloaderService extends DownloaderService {
      */
     @Override
     public String getAlarmReceiverClassName() {
-        return com.YourCompany.ringKNewYear.AlarmReceiver.class.getName();
+        return ring.K.AlarmReceiver.class.getName();
     }
 }

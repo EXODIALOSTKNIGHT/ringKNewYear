@@ -7,15 +7,15 @@ if not "%1"=="" set DEVICE=-s %1
 for /f "delims=" %%A in ('%ADB% %DEVICE% shell "echo $EXTERNAL_STORAGE"') do @set STORAGE=%%A
 @echo.
 @echo Uninstalling existing application. Failures here can almost always be ignored.
-%ADB% %DEVICE% uninstall com.YourCompany.ringKNewYear
+%ADB% %DEVICE% uninstall ring.K
 @echo.
 @echo Installing existing application. Failures here indicate a problem with the device (connection or storage permissions) and are fatal.
 %ADB% %DEVICE% install ringKNewYear-Android-Shipping-armv7-es2.apk
 @if "%ERRORLEVEL%" NEQ "0" goto Error
 %ADB% %DEVICE% shell rm -r %STORAGE%/UE4Game/ringKNewYear
 %ADB% %DEVICE% shell rm -r %STORAGE%/UE4Game/UE4CommandLine.txt
-%ADB% %DEVICE% shell rm -r %STORAGE%/obb/com.YourCompany.ringKNewYear
-%ADB% %DEVICE% shell rm -r %STORAGE%/Android/obb/com.YourCompany.ringKNewYear
+%ADB% %DEVICE% shell rm -r %STORAGE%/obb/ring.K
+%ADB% %DEVICE% shell rm -r %STORAGE%/Android/obb/ring.K
 
 
 

@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.ringKNewYear.OBBDownloaderService;
-import com.YourCompany.ringKNewYear.DownloaderActivity;
+import ring.K.OBBDownloaderService;
+import ring.K.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.ringKNewYear.OBBData;
+import ring.K.OBBData;
 
 
 public class DownloadShim

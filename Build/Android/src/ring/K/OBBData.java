@@ -1,4 +1,4 @@
-package com.YourCompany.ringKNewYear;
+package ring.K;
 
 public class OBBData
 {
@@ -17,7 +17,7 @@ public static final XAPKFile[] xAPKS = {
 new XAPKFile(
 true, // true signifies a main file
 "1", // the version of the APK that the file was uploaded against
-16756081L // the length of the file in bytes
+15457441L // the length of the file in bytes
 )
 };
 };
